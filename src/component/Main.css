@@ -1,0 +1,54 @@
+.contaner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.title {
+    font-size: 3rem;
+    color: #cecece;
+    margin-bottom: 2rem;
+}
+
+.contaner ol li {
+    font-size: 1.4em;
+    color: #cecece;
+
+}
+
+.start {
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 2em;
+}
+
+.start .btn {
+    cursor: pointer;
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #faff5a;
+}
+
+#form {
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 4em;
+    width: 50%;
+}
+
+#form .userid {
+    padding: .7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
